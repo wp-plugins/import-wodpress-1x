@@ -57,6 +57,7 @@ var $cats_after = array();
 	<ul>
 	<li><?php _e('The permalinks of this blog must have the same structure of the blog that you are importing, otherwise you will have problems with the links.', 'import1x'); ?></li>
 	<li><?php _e('In your WordPress installation, the folder .../wp-admin/import must have write permissions to anyone (666 or 777).', 'import1x'); ?></li>
+	<li><?php _e('The imported blog must be configured  to supply feeds with complete posts.', 'import1x'); ?></li>
 	</ul>
 	</p>
   <div style="margin:3px; padding:10px; background-color:#F1F1F1;">

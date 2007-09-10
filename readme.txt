@@ -10,13 +10,14 @@ The importers of WordPress 2.x includes two ways to import another WordPress blo
 == Installation ==
 * Unzip the package and copy the entire folder "import1x" to your /wp-content/plugins/ directory 
 * Open your WordPress administrative interface, go to Plugins page and activate the plugin 
+* To import a blog, go to Manage >> Import, then click in "WordPress 1.x" and follow the instructions
 
   
 == Important ==  
   
 * The permalinks of this blog must have the same structure of the blog that you are importing, otherwise you will have problems with the links. 
 * In your WordPress installation, the folder …/wp-admin/import must have write permissions (666 or 777). 
-
+* The imported blog must be configured  to supply feeds with complete posts
 
 == Feedback ==
 
